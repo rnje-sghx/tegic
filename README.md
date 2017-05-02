@@ -11,11 +11,27 @@ Sanyo, Sagem and others. It was also used by Texas Instruments PDA Avigo during 
 main competitors are iTap created by Motorola, SureType created by RIM, Eatoni's LetterWise and WordWise, 
 and Intelab's Tauto.
 
+_Source: Wikipedia_
+
 ## Algorithm
 In order to achieve compression ratios of close to 1 byte per word, T9 uses an optimized algorithm which 
 maintains the order of words, and partial words (also known as stems) but because of this compression, 
 it over-generates words which are sometimes visible to the user as "junk words". This is a side effect of 
 the requirements for small database sizes on the lower end embedded devices.
+
+_Source: Wikipedia_
+
+## Building & Testing
+```
+mkdir -p ./Build
+cd ./Build
+cmake ..
+
+try,
+  make              # For Building
+or,
+  make && make test # For Testing
+```
 
 ## License
 ```
