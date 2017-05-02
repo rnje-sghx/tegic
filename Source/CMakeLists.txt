@@ -3,4 +3,5 @@ add_library(
     SHARED
     tegic.cpp
     tegic.hpp
-)
+    tegic/digits.cpp
+    tegic/digits.hpp)

@@ -2,6 +2,8 @@
 #define TEGIC_TEGIC_HPP_
 
 #include <string>
+#include <vector>
+#include "tegic/digits.hpp"
 
 class Tegic {
 public:
@@ -9,7 +11,7 @@ public:
 
   virtual ~Tegic();
 
-  std::string Says();
+  std::vector<std::string> PredictWords(Digits digits);
 };
 
 #endif // TEGIC_TEGIC_HPP_

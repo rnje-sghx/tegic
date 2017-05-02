@@ -8,6 +8,7 @@ Tegic::~Tegic() {
   // NOOP
 }
 
-std::string Tegic::Says() {
-  return "Hello, Tegic!";
+std::vector<std::string> Tegic::PredictWords(Digits digits) {
+  std::vector<std::string> words;
+  return words;
 }
