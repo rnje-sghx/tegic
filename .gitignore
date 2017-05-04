@@ -6,7 +6,7 @@
 *.iml
 
 # CMake Temporary
-[Bb]uild
+[Bb]uild[s]
 
 # Editor Ctags
 cscope.*

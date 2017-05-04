@@ -23,8 +23,8 @@ _Source: Wikipedia_
 
 ## Building & Testing
 ```
-mkdir -p ./Build
-cd ./Build
+mkdir -p ./Builds
+cd ./Builds
 cmake ..
 
 try,

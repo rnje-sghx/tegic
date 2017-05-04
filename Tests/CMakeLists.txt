@@ -1,6 +1,6 @@
 include_directories(
-    ${PROJECT_SOURCE_DIR}/Include
-    ${PROJECT_SOURCE_DIR}/Source
+    ${PROJECT_SOURCE_DIR}/Includes
+    ${PROJECT_SOURCE_DIR}/Sources
 )
 
 add_executable(
